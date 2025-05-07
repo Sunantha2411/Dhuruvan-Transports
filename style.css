@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #222;
+  }
+  
+  header {
+    background: #007bff;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 5px;
+  }
+  
+  .contact-buttons {
+    margin-top: 15px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 8px;
+    width: 48px;
+    height: 48px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  /* Hover: subtle background change without size increase */
+  .btn:hover {
+    background: #dcdcdc;
+  }
+  
+  section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .services li::before {
+    content: "✅ ";
+    color: green;
+  }
+  
+  .gallery .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+  }
+  
