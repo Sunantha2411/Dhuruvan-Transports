@@ -35,7 +35,6 @@ body {
     transition: background 0.2s ease-in-out;
   }
   
-  /* Hover: subtle background change without size increase */
   .btn:hover {
     background: #dcdcdc;
   }
@@ -59,6 +58,11 @@ body {
     color: green;
   }
   
+  .gallery {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
   .gallery .images {
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +73,7 @@ body {
   .gallery img {
     width: 100%;
     max-width: 280px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 0 5px #ccc;
   }
